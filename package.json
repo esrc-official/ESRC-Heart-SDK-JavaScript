@@ -1,0 +1,35 @@
+{
+  "name": "@esrc/heart",
+  "version": "0.1.0",
+  "description": "ESRC Heart JavaScript SDK",
+  "main": "./dist/esrc.js",
+  "scripts": {
+    "configure:gyp": "node-gyp configure",
+    "build:gyp": "node-gyp build",
+    "dev": "./node_modules/.bin/webpack --mode=development",
+    "build": "./node_modules/.bin/webpack --mode=production",
+    "start": "node app.js"
+  },
+  "bin": {
+    "app": "./src/index.js"
+  },
+  "gypfile": true,
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/runtime-corejs3": "^7.18.3",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@esrc/opencv.js": "^4.5.1",
+    "@tensorflow/tfjs": "^3.18.0",
+    "bindings": "^1.5.0",
+    "core-js": "^3.22.7",
+    "file-uri-to-path": "^2.0.0",
+    "path-browserify": "^1.0.1"
+  }
+}

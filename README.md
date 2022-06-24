@@ -16,7 +16,7 @@
 
 Through our **ESRC Heart SDK** for JavaScript, you can efficiently integrate real-time recognition of heart response and emotions into your mobile app. This and other pages in the Getting Started provide the ESRC Heart SDK’s structure and installation steps, then goes through the preliminary steps of implementing the ESRC Heart SDK in your own project.
 
-### Supported browsers
+<!-- ### Supported browsers
 
 | Browser|Supported versions|
 | :---: | :--- |
@@ -27,7 +27,7 @@ Through our **ESRC Heart SDK** for JavaScript, you can efficiently integrate rea
 | Safari | 7 or higher |
 | Opera | 12.1 or higher |
 | iOS Safari | 7 or higher |
-| Android Browser | 4.4 (Kitkat) or higher | 
+| Android Browser | 4.4 (Kitkat) or higher |  -->
 
 ### Key functions
 

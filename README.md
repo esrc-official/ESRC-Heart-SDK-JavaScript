@@ -161,7 +161,7 @@ ESRC.stop()
 
 ## Changelogs
 
-### v0.1.0 (JUNE 09, 2022)
+### v0.1.3 (JUNE 24, 2022)
 
 If you want to check the record of other versions, go to [Change Log](https://github.com/esrc-official/ESRC-Heart-SDK-JavaScript/blob/master/CHANGELOG.md).
 
